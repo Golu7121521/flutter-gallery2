@@ -25,9 +25,9 @@ dependencies:
   # bypassing the Android device's platform MediaCodec entirely — this
   # avoids hardware-decoder bugs/crashes seen with video_player/ExoPlayer
   # on some real devices, even for standard H.264 files.)
-  media_kit: ^1.1.11
-  media_kit_video: ^1.2.5
-  media_kit_libs_video: ^1.0.5
+  media_kit: ^1.2.6
+  media_kit_video: ^2.0.1
+  media_kit_libs_video: ^1.0.7
   wakelock_plus: ^1.2.10
 
   # Audio playback (e.g. for future audio-note / music-in-gallery support)
