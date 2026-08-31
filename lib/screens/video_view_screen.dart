@@ -411,7 +411,7 @@ class _VideoViewScreenState extends State<VideoViewScreen> {
   }
 
   Widget _buildBottomControls(BuildContext context, FavoritesProvider favorites) {
-    final maxMs = _duration.inMilliseconds.toDouble().clamp(1, double.infinity);
+    final maxMs = _duration.inMilliseconds.toDouble().clamp(1.0, double.infinity);
     final posMs = _position.inMilliseconds
         .clamp(0, _duration.inMilliseconds)
         .toDouble();
